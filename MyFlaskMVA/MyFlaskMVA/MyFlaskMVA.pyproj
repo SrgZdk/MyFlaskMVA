@@ -37,17 +37,30 @@
     <Folder Include="MyFlaskMVA\static\" />
     <Folder Include="MyFlaskMVA\static\content\" />
     <Folder Include="MyFlaskMVA\static\fonts\" />
+    <Folder Include="MyFlaskMVA\static\images\" />
+    <Folder Include="MyFlaskMVA\static\content\social\" />
     <Folder Include="MyFlaskMVA\static\scripts\" />
     <Folder Include="MyFlaskMVA\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MyFlaskMVA\static\content\interface.css" />
-    <Content Include="MyFlaskMVA\templates\interface.html" />
-    <Content Include="MyFlaskMVA\templates\menu.html" />
+    <None Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
+    <Content Include="MyFlaskMVA\static\content\site.css" />
+    <Content Include="MyFlaskMVA\static\content\site.min.css" />
+    <Content Include="MyFlaskMVA\static\content\social\gmail.png" />
+    <Content Include="MyFlaskMVA\static\content\social\vk.png" />
+    <Content Include="MyFlaskMVA\static\images\linked.jpg" />
+    <Content Include="MyFlaskMVA\static\content\social\facebook-128.png" />
+    <Content Include="MyFlaskMVA\static\content\social\github-128.png" />
+    <Content Include="MyFlaskMVA\static\content\social\linkedin-128.png" />
+    <Content Include="MyFlaskMVA\static\content\social\twitter-128.png" />
     <Content Include="requirements.txt" />
     <Content Include="MyFlaskMVA\static\content\bootstrap.css" />
     <Content Include="MyFlaskMVA\static\content\bootstrap.min.css" />
-    <Content Include="MyFlaskMVA\static\content\site.css" />
+    <Content Include="MyFlaskMVA\static\content\site.less" />
     <Content Include="MyFlaskMVA\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="MyFlaskMVA\static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="MyFlaskMVA\static\fonts\glyphicons-halflings-regular.ttf" />
